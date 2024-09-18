@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*
+reads a password guess and returns how many of the digits were correct
+*/
+
 int main(){
     int senha, verify=0, s1=-1, s2=-1, s3=-1;
     srand(time(NULL));
